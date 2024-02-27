@@ -1,0 +1,37 @@
+Acidente
+	causa_acidente
+	tipo_acidente
+	classificacao_acidente
+	data
+	horario
+
+CondicoesGeo
+	cond_metereologica
+	sentido_via
+	tipo_pista
+	tracado_via
+	
+
+Local
+	municipio
+	UF
+	br
+	km_br
+
+Participantes
+	pessoas
+	mortos
+	feridos_leves
+	feridos_graves
+	ilesos
+	ignorados
+	feridos_totais
+	veiculos
+
+
+
+Não usar no diagrama:
+	id
+	regional
+	delegacia
+	uop

@@ -1,0 +1,558 @@
+# depslib dependency file v1.0
+1597749732 source:d:\pinho\basico2d\programabasicoopengl.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Temporizador.h"
+
+1298986600 d:\pinho\basico2d\gl\glut.h
+	"freeglut.h"
+
+1298986600 d:\pinho\basico2d\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 d:\pinho\basico2d\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 d:\pinho\basico2d\gl\freeglut_ext.h
+
+1584988812 d:\pinho\basico2d\temporizador.h
+	<iostream>
+	<windows.h>
+	<sys/time.h>
+
+1584988348 source:d:\pinho\basico2d\temporizador.cpp
+	"Temporizador.h"
+
+1597787603 source:d:\pinho\poligonos\exibepoligonos.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	"Poligono.h"
+	"Temporizador.h"
+
+1298986600 d:\pinho\poligonos\gl\glut.h
+	"freeglut.h"
+
+1298986600 d:\pinho\poligonos\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1298986600 d:\pinho\poligonos\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1298986600 d:\pinho\poligonos\gl\freeglut_ext.h
+
+1597783594 d:\pinho\poligonos\ponto.h
+	<iostream>
+
+1597787214 d:\pinho\poligonos\poligono.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	<vector>
+
+1584988812 d:\pinho\poligonos\temporizador.h
+	<iostream>
+	<windows.h>
+	<sys/time.h>
+
+1597787245 source:d:\pinho\poligonos\poligono.cpp
+	"Poligono.h"
+
+1597784052 source:d:\pinho\poligonos\ponto.cpp
+	"Ponto.h"
+
+1584988348 source:d:\pinho\poligonos\temporizador.cpp
+	"Temporizador.h"
+
+1692904432 source:c:\users\10033421\desktop\voronoi\diagramavoronoi.cpp
+	"DiagramaVoronoi.h"
+
+1692904432 c:\users\10033421\desktop\voronoi\diagramavoronoi.h
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1692904432 c:\users\10033421\desktop\voronoi\poligono.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	<vector>
+
+1692904433 c:\users\10033421\desktop\voronoi\gl\glut.h
+	"freeglut.h"
+
+1692904433 c:\users\10033421\desktop\voronoi\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1692904433 c:\users\10033421\desktop\voronoi\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1692904433 c:\users\10033421\desktop\voronoi\gl\freeglut_ext.h
+
+1692904432 c:\users\10033421\desktop\voronoi\ponto.h
+	<iostream>
+	<cmath>
+
+1692904432 source:c:\users\10033421\desktop\voronoi\exibeumpoligono.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	"Poligono.h"
+	"Temporizador.h"
+
+1692904432 c:\users\10033421\desktop\voronoi\temporizador.h
+	<iostream>
+	<windows.h>
+	<sys/time.h>
+
+1692904432 source:c:\users\10033421\desktop\voronoi\listadecoresrgb.cpp
+	"ListaDeCoresRGB.h"
+
+1692904432 c:\users\10033421\desktop\voronoi\listadecoresrgb.h
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+
+1692904432 source:c:\users\10033421\desktop\voronoi\poligono.cpp
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1692904432 source:c:\users\10033421\desktop\voronoi\ponto.cpp
+	"Ponto.h"
+
+1692904432 source:c:\users\10033421\desktop\voronoi\temporizador.cpp
+	"Temporizador.h"
+
+1695236161 source:c:\users\allan\desktop\voronoi\diagramavoronoi.cpp
+	"DiagramaVoronoi.h"
+
+1695236161 c:\users\allan\desktop\voronoi\diagramavoronoi.h
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1695218186 c:\users\allan\desktop\voronoi\poligono.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	<vector>
+	"Envelope.h"
+
+1693700888 c:\users\allan\desktop\voronoi\gl\glut.h
+	"freeglut.h"
+
+1693700888 c:\users\allan\desktop\voronoi\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1693700888 c:\users\allan\desktop\voronoi\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1693700888 c:\users\allan\desktop\voronoi\gl\freeglut_ext.h
+
+1694924317 c:\users\allan\desktop\voronoi\ponto.h
+	<iostream>
+	<cmath>
+
+1693700887 source:c:\users\allan\desktop\voronoi\exibeumpoligono.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	"Poligono.h"
+	"Temporizador.h"
+
+1693700888 c:\users\allan\desktop\voronoi\temporizador.h
+	<iostream>
+	<windows.h>
+	<sys/time.h>
+
+1693700887 source:c:\users\allan\desktop\voronoi\listadecoresrgb.cpp
+	"ListaDeCoresRGB.h"
+
+1693700887 c:\users\allan\desktop\voronoi\listadecoresrgb.h
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+
+1695218186 source:c:\users\allan\desktop\voronoi\poligono.cpp
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1695217727 source:c:\users\allan\desktop\voronoi\ponto.cpp
+	"Ponto.h"
+
+1693700888 source:c:\users\allan\desktop\voronoi\temporizador.cpp
+	"Temporizador.h"
+
+1695236103 source:c:\users\allan\desktop\voronoi\exibevariospoligonos.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	"Poligono.h"
+	"DiagramaVoronoi.h"
+	"ListaDeCoresRGB.h"
+	"Temporizador.h"
+
+1694886269 source:c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\diagramavoronoi.cpp
+	"DiagramaVoronoi.h"
+
+1694833406 c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\diagramavoronoi.h
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1694872767 c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\poligono.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	<vector>
+	"Envelope.h"
+
+1693700888 c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\gl\glut.h
+	"freeglut.h"
+
+1693700888 c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1693700888 c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1693700888 c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\gl\freeglut_ext.h
+
+1694873810 c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\ponto.h
+	<iostream>
+	<cmath>
+
+1694875129 source:c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\exibevariospoligonos.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	"Poligono.h"
+	"DiagramaVoronoi.h"
+	"ListaDeCoresRGB.h"
+	"Temporizador.h"
+
+1693700887 c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\listadecoresrgb.h
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+
+1693700888 c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\temporizador.h
+	<iostream>
+	<windows.h>
+	<sys/time.h>
+
+1693700887 source:c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\listadecoresrgb.cpp
+	"ListaDeCoresRGB.h"
+
+1694877608 source:c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\poligono.cpp
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1694873810 source:c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\ponto.cpp
+	"Ponto.h"
+
+1693700888 source:c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\temporizador.cpp
+	"Temporizador.h"
+
+1694804793 c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\envelope.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+
+1694804793 source:c:\users\allan\desktop\puc\3_semestre\computacaografica\t1\voronoi\envelope.cpp
+	"Envelope.h"
+
+1694804793 c:\users\allan\desktop\voronoi\envelope.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+
+1694804793 source:c:\users\allan\desktop\voronoi\envelope.cpp
+	"Envelope.h"
+
+1694804792 source:c:\users\allan\desktop\nova pasta\voronoi\envelope.cpp
+	"Envelope.h"
+
+1694804792 c:\users\allan\desktop\nova pasta\voronoi\envelope.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+
+1693700888 c:\users\allan\desktop\nova pasta\voronoi\gl\glut.h
+	"freeglut.h"
+
+1693700888 c:\users\allan\desktop\nova pasta\voronoi\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1693700888 c:\users\allan\desktop\nova pasta\voronoi\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1693700888 c:\users\allan\desktop\nova pasta\voronoi\gl\freeglut_ext.h
+
+1695910242 c:\users\allan\desktop\nova pasta\voronoi\ponto.h
+	<iostream>
+	<cmath>
+
+1695934404 source:c:\users\allan\desktop\nova pasta\voronoi\exibevariospoligonos.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	"Poligono.h"
+	"DiagramaVoronoi.h"
+	"ListaDeCoresRGB.h"
+	"Temporizador.h"
+
+1695218186 c:\users\allan\desktop\nova pasta\voronoi\poligono.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	<vector>
+	"Envelope.h"
+
+1695236160 c:\users\allan\desktop\nova pasta\voronoi\diagramavoronoi.h
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1693700886 c:\users\allan\desktop\nova pasta\voronoi\listadecoresrgb.h
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+
+1693700888 c:\users\allan\desktop\nova pasta\voronoi\temporizador.h
+	<iostream>
+	<windows.h>
+	<sys/time.h>
+
+1693700886 source:c:\users\allan\desktop\nova pasta\voronoi\listadecoresrgb.cpp
+	"ListaDeCoresRGB.h"
+
+1695218186 source:c:\users\allan\desktop\nova pasta\voronoi\poligono.cpp
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1695910242 source:c:\users\allan\desktop\nova pasta\voronoi\ponto.cpp
+	"Ponto.h"
+
+1693700888 source:c:\users\allan\desktop\nova pasta\voronoi\temporizador.cpp
+	"Temporizador.h"
+
+1695934212 source:c:\users\allan\desktop\nova pasta\voronoi\diagramavoronoi.cpp
+	"DiagramaVoronoi.h"
+
+1696084090 source:c:\users\allan\desktop\voronoi\voronoi\diagramavoronoi.cpp
+	"DiagramaVoronoi.h"
+
+1695236160 c:\users\allan\desktop\voronoi\voronoi\diagramavoronoi.h
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1695218186 c:\users\allan\desktop\voronoi\voronoi\poligono.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	<vector>
+	"Envelope.h"
+
+1693700888 c:\users\allan\desktop\voronoi\voronoi\gl\glut.h
+	"freeglut.h"
+
+1693700888 c:\users\allan\desktop\voronoi\voronoi\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1693700888 c:\users\allan\desktop\voronoi\voronoi\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1693700888 c:\users\allan\desktop\voronoi\voronoi\gl\freeglut_ext.h
+
+1695910242 c:\users\allan\desktop\voronoi\voronoi\ponto.h
+	<iostream>
+	<cmath>
+
+1694804792 c:\users\allan\desktop\voronoi\voronoi\envelope.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+
+1694804792 source:c:\users\allan\desktop\voronoi\voronoi\envelope.cpp
+	"Envelope.h"
+
+1696083638 source:c:\users\allan\desktop\voronoi\voronoi\exibevariospoligonos.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	"Poligono.h"
+	"DiagramaVoronoi.h"
+	"ListaDeCoresRGB.h"
+	"Temporizador.h"
+
+1693700886 c:\users\allan\desktop\voronoi\voronoi\listadecoresrgb.h
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+
+1693700888 c:\users\allan\desktop\voronoi\voronoi\temporizador.h
+	<iostream>
+	<windows.h>
+	<sys/time.h>
+
+1693700886 source:c:\users\allan\desktop\voronoi\voronoi\listadecoresrgb.cpp
+	"ListaDeCoresRGB.h"
+
+1695218186 source:c:\users\allan\desktop\voronoi\voronoi\poligono.cpp
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1695910242 source:c:\users\allan\desktop\voronoi\voronoi\ponto.cpp
+	"Ponto.h"
+
+1693700888 source:c:\users\allan\desktop\voronoi\voronoi\temporizador.cpp
+	"Temporizador.h"
+

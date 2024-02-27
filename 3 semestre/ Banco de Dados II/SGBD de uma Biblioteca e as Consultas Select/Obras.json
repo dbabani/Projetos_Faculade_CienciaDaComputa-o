@@ -1,0 +1,263 @@
+[
+	{
+		"Nome": "Dhruv Babani",
+		"id_CPF": "70535036230",
+		"Email": "d.babani001@edu.pucrs.br",
+		"Telefone": "92988330082",
+		"id_nro_de_Matricula": "22110019",
+		" nro_de_creditos_concluidos": 56,
+
+		"id_data_de_emprestimo": {
+			"dia": 21,
+			"mes": 5,
+			"ano": 2001
+		},
+		"id_data_de_devolucao":{
+			"dia": 28,
+			"mes": 5,
+			"ano": 2001
+		},
+		"id_obra": 1,
+		"titulo": "Arte da Guerra",
+		"autor": "Sun Tzu",
+		"nro_paginas": 200,
+		"id_tipo_de_obra": 1
+	},
+
+	{
+		"Nome": "Maria dos Santos",
+		"id_CPF": "22222222222",
+		"Email": "m.santos002@edu.pucrs.br",
+		"Telefone": "9297830082",
+		"id_nro_de_Matricula": "20220002",
+		" nro_de_creditos_concluidos": 100,
+
+		"id_data_de_emprestimo": {
+			"dia": 1,
+			"mes": 5,
+			"ano": 2001
+		},
+		"id_data_de_devolucao":{
+			"dia": 8,
+			"mes": 5,
+			"ano": 2001
+		},
+		"id_obra": 2,
+		"titulo": "O Processo",
+		"autor": "Franz Kafka",
+		"nro_paginas": 400,
+		"id_tipo_de_obra": 3
+	},
+
+	{
+		"nome": "Carlos Eduardo",
+		"cpf": "33333333333",
+		"email": "c.eduardo003@edu.pucrs.br",
+		"telefone": "51988340082",
+		"data_de_contratacao":{
+			"dia": 21,
+			"mes": 5,
+			"ano": 2019
+		},
+
+		"id_data_de_emprestimo": {
+			"dia": 8,
+			"mes": 5,
+			"ano": 2001
+		},
+		"id_data_de_devolucao": {
+			"dia": 22,
+			"mes": 5,
+			"ano": 2001
+		},
+		"id_obra": 3,
+		"titulo": "Revista de História",
+		"autor": "Editora Abril",
+		"nro_paginas": 50,
+		"id_tipo_de_obra": 2	
+	},
+
+	{
+		"nome": "Luciana Oliveira",
+		"cpf": "44444444444",
+		"email": "l.oliveira004@edu.pucrs.br",
+		"telefone": "5189789088",
+		"data_de_contratacao":{
+			"dia": 21,
+			"mes": 4,
+			"ano": 2017
+		},
+
+		"id_data_de_emprestimo": {
+			"dia": 15,
+			"mes": 5,
+			"ano": 2001
+		},
+		"id_data_de_devolucao": {
+			"dia": 29,
+			"mes": 5,
+			"ano": 2001
+		},
+		"id_obra": 1,
+		"titulo": "A Arte da Guerra",
+		"autor": "Sun Tzu",
+		"nro_paginas": 200,
+		"id_tipo_de_obra": 1
+	},
+
+	{
+		"Nome": "Pedro Henrique",
+		"id_CPF": "55555555555",
+		"Email": "p.henrique005@edu.pucrs.br",
+		"Telefone": "9296062733",
+		"id_nro_de_Matricula": "20220004",
+		" nro_de_creditos_concluidos": 120,
+
+		"id_data_de_emprestimo": {
+			"dia": 22,
+			"mes": 5,
+			"ano": 2001
+		},
+		"id_data_de_devolucao":{
+			"dia": 29,
+			"mes": 5,
+			"ano": 2001
+		},
+		"id_obra": 2,
+		"titulo": "O Processo",
+		"autor": "Franz Kafka",
+		"nro_paginas": 400,
+		"id_tipo_de_obra": 3
+	},
+
+	{
+		
+		"Nome": "Maria dos Santos",
+		"id_CPF": "22222222222",
+		"Email": "m.santos002@edu.pucrs.br",
+		"Telefone": "9297830082",
+		"id_nro_de_Matricula": "20220002",
+		" nro_de_creditos_concluidos": 100,
+
+		"id_data_de_emprestimo": {
+			"dia": 1,
+			"mes": 6,
+			"ano": 2001
+		},
+		"id_data_de_devolucao":{
+			"dia": 8,
+			"mes": 6,
+			"ano": 2001
+		},
+		"id_obra": 1,
+		"titulo": "A Arte da Guerra",
+		"autor": "Sun Tzu",
+		"nro_paginas": 200,
+		"id_tipo_de_obra": 1
+	},
+
+	{
+		"nome": "Carlos Eduardo",
+		"cpf": "33333333333",
+		"email": "c.eduardo003@edu.pucrs.br",
+		"telefone": "51988340082",
+		"data_de_contratacao":{
+			"dia": 21,
+			"mes": 5,
+			"ano": 2019
+		},
+
+		"id_data_de_emprestimo": {
+			"dia": 8,
+			"mes": 6,
+			"ano": 2001
+		},
+		"id_data_de_devolucao": {
+			"dia": 22,
+			"mes": 6,
+			"ano": 2001
+		},
+		"id_obra": 3,
+		"titulo": "Revista de História",
+		"autor": "Editora Abril",
+		"nro_paginas": 50,
+		"id_tipo_de_obra": 2
+	},
+
+	{
+		"Nome": "Lorenzo Martins",
+		"id_CPF": "77777777777",
+		"Email": "l.martis@edu.pucrs.br",
+		"Telefone": "92898378838",
+		"id_nro_de_Matricula": "20229999",
+		" nro_de_creditos_concluidos": 30,
+
+		"id_data_de_emprestimo": {
+			"dia": 15,
+			"mes": 6,
+			"ano": 2001
+		},
+		"id_data_de_devolucao":{
+			"dia": 22,
+			"mes": 6,
+			"ano": 2001
+		},
+		"id_obra": 2,
+		"titulo": "O Processo",
+		"autor": "Franz Kafka",
+		"nro_paginas": 400,
+		"id_tipo_de_obra": 3
+	},
+
+	{
+		"Nome": "Pedro Henrique",
+		"id_CPF": "55555555555",
+		"Email": "p.henrique005@edu.pucrs.br",
+		"Telefone": "9296062733",
+		"id_nro_de_Matricula": "20220004",
+		" nro_de_creditos_concluidos": 120,
+
+		"id_data_de_emprestimo": {
+			"dia": 22,
+			"mes": 6,
+			"ano": 2001
+		},
+		"id_data_de_devolucao":{
+			"dia": 29,
+			"mes": 6,
+			"ano": 2001
+		},
+		"id_obra": 1,
+		"titulo": "A Arte da Guerra",
+		"autor": "Sun Tzu",
+		"nro_paginas": 200,
+		"id_tipo_de_obra": 1
+	},
+
+	{
+		"Nome": "Dhruv Babani",
+		"id_CPF": "70535036230",
+		"Email": "d.babani001@edu.pucrs.br",
+		"Telefone": "92988330082",
+		"id_nro_de_Matricula": "22110019",
+		" nro_de_creditos_concluidos": 56,
+
+		"id_data_de_emprestimo": {
+			"dia": 1,
+			"mes": 7,
+			"ano": 2001
+		},
+		"id_data_de_devolucao":{
+			"dia": 8,
+			"mes": 7,
+			"ano": 2001
+		},
+		"id_obra": 3,
+		"titulo": "Revista de História",
+		"autor": "Editora Abril",
+		"nro_paginas": 50,
+		"id_tipo_de_obra": 2
+	}
+
+	
+]
