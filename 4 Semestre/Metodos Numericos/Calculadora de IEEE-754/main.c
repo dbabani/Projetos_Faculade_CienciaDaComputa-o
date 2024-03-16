@@ -108,8 +108,6 @@ int main() {
     printIEE754(ieee_754_representation_RESULT);
     printf("= %f \n",result);
     printf("\n");
-
+    
     excecoes();
-
-
 }
