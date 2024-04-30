@@ -5,18 +5,18 @@ import java.util.Arrays;
 
 class Katsubra {
     public static void main(String[] args) {
-        if(args.length < 2){
-            System.out.println("Forneça o segundo numero.");
+        if (args.length < 2) {
+            System.out.println("Forneça todos os argumentos.");
             return;
         }
 
         long tempoInicial = System.nanoTime();
-        System.out.println("\n R:" + KatsubraTriplo(args[0],args[1]));
-        long tempoFinal =System.nanoTime();
+        System.out.println("\n R:" + KatsubraTriplo(args[0], args[1]));// Print do resultado do Produto.
+        long tempoFinal = System.nanoTime();
 
         long tempoDecorrido = tempoFinal - tempoInicial;
         double segundos = (double) tempoDecorrido / 1_000_000_000.0;
-        System.out.println("\n Tempo(s):" + segundos + " segundos");
+        System.out.println("\n Tempo(s):" + segundos + " segundos");// Tempo da execução.
     }
 
     public static String KatsubraTriplo(String x, String y) {
@@ -24,7 +24,7 @@ class Katsubra {
         if (x.length() == 1 && y.length() == 1) {
             return Integer.toString(Integer.parseInt(x) * Integer.parseInt(y));
         }
-        
+
         // Concatenar os numeros com "0" para que o tamanho dos strings seja sempre o
         // mesmo
         while (x.length() != y.length()) {
@@ -38,17 +38,17 @@ class Katsubra {
 
         // Calculando o numero de digitos do numero
         int tamanhoParte = x.length() / 3;
-        String x1,x2,x3,y1,y2,y3;
+        String x1, x2, x3, y1, y2, y3;
 
         if (x.length() == 2) {
-             x1 = "0";
-             x2 = x.substring(0, 1);
-             x3 = x.substring(1);
+            x1 = "0";
+            x2 = x.substring(0, 1);
+            x3 = x.substring(1);
 
-             y1 = "0";
-             y2 = y.substring(0, 1);
-             y3 = y.substring(1);
-        } else{
+            y1 = "0";
+            y2 = y.substring(0, 1);
+            y3 = y.substring(1);
+        } else {
 
             // Separando o primeiro numero x em três pedacos
             x1 = x.substring(0, tamanhoParte);
@@ -61,7 +61,7 @@ class Katsubra {
             y3 = y.substring(tamanhoParte * 2);
 
         }
-        
+
         // 9 Operacoes recursivas
         String x1y1 = KatsubraTriplo(x1, y1);
         String x1y2 = KatsubraTriplo(x1, y2);
@@ -80,17 +80,16 @@ class Katsubra {
         String e2 = shift(x3.length());
 
         // Fazendo a operacao final de conquista
-        return removerZeros(
+        return removerZeros(somaString(
                 somaString(
-                        somaString(
+                        somaString(somaString(
                                 somaString(somaString(
-                                        somaString(somaString(
-                                                somaString(somaString(x1y1.concat(e1).concat(e1),
-                                                        x1y2.concat(e1).concat(e2)), x1y3.concat(e1)),
-                                                x2y1.concat(e1).concat(e2)), x2y2.concat(e2).concat(e2)),
-                                        x2y3.concat(e2)), x3y1.concat(e1)),
-                                x3y2.concat(e2)),
-                        x3y3));
+                                        somaString(somaString(x1y1.concat(e1).concat(e1),
+                                                x1y2.concat(e1).concat(e2)), x1y3.concat(e1)),
+                                        x2y1.concat(e1).concat(e2)), x2y2.concat(e2).concat(e2)),
+                                x2y3.concat(e2)), x3y1.concat(e1)),
+                        x3y2.concat(e2)),
+                x3y3));
 
     }
 
@@ -139,6 +138,11 @@ class Katsubra {
 
     // Remover os zeros do inicio do numero que sao desnecessarios
     private static String removerZeros(String a) {
-        return a.replaceAll("^0+", "");
+        if (a.matches("0+")) {
+            return "0";
+        } else {
+            return a.replaceAll("^0+", "");
+        }
+
     }
 }

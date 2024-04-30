@@ -16,8 +16,6 @@ public class App {
         };
 
         for (String testPath : testPaths) {
-            
-
             TribeTree tribeTree = readTestCase(testPath);
 
             

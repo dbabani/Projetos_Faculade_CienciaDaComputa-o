@@ -101,13 +101,8 @@ public class Trabalho {
                         }
                         int h= dia + 13*(mes + 1) / 5 + (ano%100) + (ano%100)/4+(ano/100)/4+5*(ano/100);
                         h = h % 7;
-                        
-                    
-                        
-                
-                        
+        
                         //Calculando o resultado do algoritmo e logo abaixo imprimimdo o dia da semana correspondido
-                
                         switch(h){
                             case 0:
                                 System.out.println("sabado");

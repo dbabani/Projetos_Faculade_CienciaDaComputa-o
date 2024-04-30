@@ -14,7 +14,7 @@ public class App {
     static int iteracoes = 0;
 
     public static void main(String[] args) {
-        List<List<Integer>> dados = lerArquivo("caso010.txt");
+        List<List<Integer>> dados = lerArquivo("caso200.txt");
         montarSistema(dados);
         resolverSistema(0.001, 100);
         System.out.println("Número de iterações realizadas:");
@@ -138,3 +138,4 @@ public class App {
         return indice;
     }
 }
+
