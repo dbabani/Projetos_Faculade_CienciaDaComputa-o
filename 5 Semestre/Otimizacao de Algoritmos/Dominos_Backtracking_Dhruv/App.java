@@ -71,7 +71,12 @@ class App {
                 System.out.println("Nao tem solucao");
             }
 
-            System.out.println(cadeiaFinal);
+            StringBuilder sb = new StringBuilder();
+            for (Domino d : cadeiaFinal){
+                sb.append(d.toString()).append(" ");
+            }
+
+            System.out.println(sb);
 
             fileScanner.close();
         } catch (FileNotFoundException e) {

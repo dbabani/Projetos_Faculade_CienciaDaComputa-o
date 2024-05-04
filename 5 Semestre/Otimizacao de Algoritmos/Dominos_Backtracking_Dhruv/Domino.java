@@ -13,6 +13,6 @@ public class Domino {
 
     @Override
     public String toString() {
-        return "[" + a + "/" + b + "]";
+        return  a + " " + b;
     }
 }
