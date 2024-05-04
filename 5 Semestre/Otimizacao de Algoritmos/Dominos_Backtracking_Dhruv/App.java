@@ -3,18 +3,18 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class App{
+class App {
     public static void main(String[] args) {
-        if(args.length == 0){
+        if (args.length == 0) {
             System.out.println("Forneça apenas o caminho do arquivo!");
             return;
         }
         printCadeiaDominos(args[0]);
     }
 
-    public static ArrayList<Domino>  dominosLista (ArrayList<Domino> cadeiaDominos){
+    public static ArrayList<Domino> dominosLista(ArrayList<Domino> cadeiaDominos) {
         int cadeiaSize = cadeiaDominos.size();
-        ArrayList<Domino>  lista_final = new ArrayList<>();
+        ArrayList<Domino> lista_final = new ArrayList<>();
         dominosLista_Aux(cadeiaDominos, lista_final, cadeiaSize);
         return lista_final;
     }
@@ -23,7 +23,7 @@ class App{
         if (lista.size() == cadeiaSize) {
             return;
         }
-        
+
         for (int i = 0; i < cadeiaDominos.size(); i++) {
             Domino domino = cadeiaDominos.get(i);
             if (possivel(domino, lista)) {
@@ -36,7 +36,7 @@ class App{
                 }
                 lista.remove(lista.size() - 1);
             }
-    
+
             domino = domino.flipped();
             if (possivel(domino, lista)) {
                 lista.add(domino);
@@ -50,13 +50,12 @@ class App{
             }
         }
     }
-    
 
-    public static boolean possivel(Domino domino,ArrayList<Domino>  lista){
-        return lista.isEmpty() || lista.get(lista.size()- 1).b == domino.a;
+    public static boolean possivel(Domino domino, ArrayList<Domino> lista) {
+        return lista.isEmpty() || lista.get(lista.size() - 1).b == domino.a;
     }
 
-    public static void printCadeiaDominos(String nomeArquivo){
+    public static void printCadeiaDominos(String nomeArquivo) {
         try {
             File file = new File(nomeArquivo);
             Scanner fileScanner = new Scanner(file);
@@ -68,17 +67,17 @@ class App{
             }
 
             ArrayList<Domino> cadeiaFinal = dominosLista(dominos);
-            if(cadeiaFinal == null){
+            if (cadeiaFinal.isEmpty()) {
                 System.out.println("Nao tem solucao");
             }
 
             System.out.println(cadeiaFinal);
-            
+
             fileScanner.close();
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
-    
+
         }
-        
+
     }
 }
