@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class App {
+    private static ArrayList<Domino> firstSolution = null;
+
     public static void main(String[] args) {
         if (args.length == 0) {
             System.out.println("Forneça apenas o caminho do arquivo!");
@@ -16,11 +18,16 @@ class App {
         int cadeiaSize = cadeiaDominos.size();
         ArrayList<Domino> lista_final = new ArrayList<>();
         dominosLista_Aux(cadeiaDominos, lista_final, cadeiaSize);
-        return lista_final;
+        return firstSolution != null ? firstSolution : new ArrayList<Domino>();
     }
 
     public static void dominosLista_Aux(ArrayList<Domino> cadeiaDominos, ArrayList<Domino> lista, int cadeiaSize) {
+        if (firstSolution != null) {
+            return; 
+        }
+
         if (lista.size() == cadeiaSize) {
+            firstSolution = new ArrayList<>(lista); 
             return;
         }
 
@@ -31,8 +38,8 @@ class App {
                 ArrayList<Domino> subList = new ArrayList<>(cadeiaDominos);
                 subList.remove(i);
                 dominosLista_Aux(subList, lista, cadeiaSize);
-                if (lista.size() == cadeiaSize) {
-                    return;
+                if (firstSolution != null) {
+                    return; 
                 }
                 lista.remove(lista.size() - 1);
             }
@@ -43,8 +50,8 @@ class App {
                 ArrayList<Domino> subList = new ArrayList<>(cadeiaDominos);
                 subList.remove(i);
                 dominosLista_Aux(subList, lista, cadeiaSize);
-                if (lista.size() == cadeiaSize) {
-                    return;
+                if (firstSolution != null) {
+                    return; 
                 }
                 lista.remove(lista.size() - 1);
             }
@@ -69,20 +76,18 @@ class App {
             ArrayList<Domino> cadeiaFinal = dominosLista(dominos);
             if (cadeiaFinal.isEmpty()) {
                 System.out.println("Nao tem solucao");
+            } else {
+                StringBuilder sb = new StringBuilder();
+                for (Domino d : cadeiaFinal){
+                    sb.append(d.toString()).append(" ");
+                }
+                System.out.println(sb.toString().trim());
             }
-
-            StringBuilder sb = new StringBuilder();
-            for (Domino d : cadeiaFinal){
-                sb.append(d.toString()).append(" ");
-            }
-
-            System.out.println(sb);
 
             fileScanner.close();
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
-
         }
-
     }
 }
+
