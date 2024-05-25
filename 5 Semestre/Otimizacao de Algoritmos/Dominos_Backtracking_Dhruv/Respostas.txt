@@ -31,6 +31,6 @@ java App Testes/caso26.txt  1617.07s user 13.47s system 100% cpu 27:00.57 total
 java App Testes/caso27.txt  593.08s user 4.96s system 100% cpu 9:56.12 total
 
 --Caso28--
-Nao consegui achar uma resposta
-java App Testes/caso28.txt  23749.07s user 217.80s system 98% cpu 6:46:19.63 total
+Nao tem solucao
+java App Testes/caso28.txt  21981.39s user 157.53s system 100% cpu 6:05:58.53 total
 
